@@ -1,6 +1,7 @@
 pandas
 plotly
 matplotlib
+seaborn
 streamlit
 yfinance
 pandas-datareader
