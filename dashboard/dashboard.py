@@ -47,7 +47,7 @@ def create_rfm_df(df):
 
 # load berkas all_data.csv
 def load_data():
-    all_df = pd.read_csv("all_data.csv")
+    all_df = pd.read_csv("https://raw.githubusercontent.com/syifafatma/submission/refs/heads/main/dashboard/all_data.csv")
     datetime_columns = ["order_approved_at", "order_delivered_customer_date"]
     for column in datetime_columns:
         all_df[column] = pd.to_datetime(all_df[column])
